@@ -1,6 +1,6 @@
 <template>
   <v-container class="fill-height w100">
-    <v-sheet class="text-center fill-height mx-auto rounded-lg w100 grey-darken-1">
+    <v-sheet class="text-center fill-height mx-auto rounded-lg w100 grey-darken-1"> 
       <v-img height="300" src="@/assets/PostXING.png" />
 
       <div class="text-body-2 font-weight-light mb-n1">Welcome to</div>
