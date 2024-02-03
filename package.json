@@ -1,11 +1,16 @@
 {
   "name": "post-xing",
-  "version": "0.0.0",
+  "version": "2.14.203",
+  "type": "module",
+  "main": "index.js",
+  "homepage": "https://postxing.net",
   "scripts": {
     "dev": "cross-env NODE_OPTIONS='--no-warnings' vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint . --fix --ignore-path .gitignore"
+    "lint": "eslint . --fix --ignore-path .gitignore",
+    "version": "node ./version.js",
+    "v": "node ./version.js"
   },
   "dependencies": {
     "@mdi/font": "7.0.96",

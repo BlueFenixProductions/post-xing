@@ -1,45 +1,41 @@
 <template>
-  <v-container class="fill-height">
-    <v-responsive class="align-center text-center fill-height">
-      <v-img height="300" src="@/assets/logo.svg" />
+  <v-container class="fill-height w100">
+    <v-sheet class="text-center fill-height mx-auto rounded-lg w100 grey-darken-1">
+      <v-img height="300" src="@/assets/PostXING.png" />
 
       <div class="text-body-2 font-weight-light mb-n1">Welcome to</div>
 
-      <h1 class="text-h2 font-weight-bold">Vuetify</h1>
+      <h1 class="text-h2 font-weight-bold">Post XING</h1>
 
       <div class="py-14" />
 
       <v-row class="d-flex align-center justify-center">
         <v-col cols="auto">
           <v-btn
-            href="https://vuetifyjs.com/components/all/"
+            href="javascript:void(0)"
             min-width="164"
-            rel="noopener noreferrer"
-            target="_blank"
             variant="text"
           >
             <v-icon
-              icon="mdi-view-dashboard"
+              icon="mdi-history"
               size="large"
               start
             />
 
-            Components
+            History
           </v-btn>
         </v-col>
 
         <v-col cols="auto">
           <v-btn
             color="primary"
-            href="https://vuetifyjs.com/introduction/why-vuetify/#feature-guides"
+            href="javascript:void(0)"
             min-width="228"
-            rel="noopener noreferrer"
             size="x-large"
-            target="_blank"
             variant="flat"
           >
             <v-icon
-              icon="mdi-speedometer"
+              icon="mdi-signal-distance-variant"
               size="large"
               start
             />
@@ -50,14 +46,12 @@
 
         <v-col cols="auto">
           <v-btn
-            href="https://community.vuetifyjs.com/"
+            href="javascript:void(0)"
             min-width="164"
-            rel="noopener noreferrer"
-            target="_blank"
             variant="text"
           >
             <v-icon
-              icon="mdi-account-group"
+              icon="mdi-clipboard-arrow-down-outline"
               size="large"
               start
             />
@@ -66,10 +60,6 @@
           </v-btn>
         </v-col>
       </v-row>
-    </v-responsive>
+    </v-sheet>
   </v-container>
 </template>
-
-<script setup>
-  //
-</script>
